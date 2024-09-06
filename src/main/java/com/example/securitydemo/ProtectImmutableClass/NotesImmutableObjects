@@ -1,0 +1,26 @@
+What is Immutable Objects?
+
+Once the object is created, it can't be changed.
+
+Once the Object is constructed its state can't be changed.
+
+
+If you want to make a class as Immutable then mark its fields or Variables as final, so that
+once it is initialized by the use of constructor then the same object fields can't be reinitialized.
+So if we can't reinitialized the same object's state, then there is no need of setter method inside the class.
+
+Therefore we can make this class as an Immutable class.
+
+---------------------------------------------------------------------------------
+
+Also we have to make the class as final so that no other chil class or sub class can override our class
+method or variable or field property.
+
+//Now the interviewer can ask is this class purely Immutable ?
+
+now he asks you like he want every student should have their addresses
+so therefore, A mutable Address class should be introduced inside the Immutable final class
+
+
+
+
