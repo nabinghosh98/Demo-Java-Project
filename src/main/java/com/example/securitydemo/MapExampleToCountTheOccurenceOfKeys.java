@@ -18,7 +18,7 @@ public class MapExampleToCountTheOccurenceOfKeys {
         for(Map.Entry<Character,Integer> entry:map.entrySet()){
                 System.out.println(entry.getKey()+"  "+ entry.getValue());
         }
-
+        //push the changes
         System.out.println("Size of the map is :" + map.size());
     }
 }
