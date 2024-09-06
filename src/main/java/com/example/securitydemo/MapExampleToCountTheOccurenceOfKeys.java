@@ -19,7 +19,7 @@ public class MapExampleToCountTheOccurenceOfKeys {
                 System.out.println(entry.getKey()+"  "+ entry.getValue());
         }
 
-        System.out.println("Program to print the Map Size and get the default value of key");
+        //HashMap uses
 
         System.out.println("Size of the map is :" + map.size());
     }
